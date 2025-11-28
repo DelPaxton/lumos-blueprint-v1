@@ -1,0 +1,17 @@
+# Minimal Case
+
+Fluxo simples demonstrando como o sistema opera conceitualmente.
+
+Entrada:
+- evento
+- usuário
+- contexto
+
+Processo:
+1. Buffer temporal elástico recebe e ordena
+2. Topologia fractal ou grafo dinâmico processa
+3. Camada de integridade verifica e registra
+
+Saída:
+- estado resolvido
+- rastro verificável
