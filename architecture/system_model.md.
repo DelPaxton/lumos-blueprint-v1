@@ -1,0 +1,26 @@
+# System Model v1
+
+Modelo lógico inicial do sistema Lumos.
+
+## Componentes Ativos
+
+### GraphLayer
+Coordena a topologia fractal e os grafos dinâmicos de comparação.
+
+### BufferLayer
+Gerencia a fila elástica, entrada de eventos e priorização contextual.
+
+### IntegrityLayer
+Executa verificação, registro e rastreio de integridade distribuída.
+
+## Propriedades do Sistema
+
+- Determinístico
+- Modular
+- Extensível
+- Reprodutível
+- Independente de finanças
+
+## Fluxo Básico
+
+Entrada → BufferLayer → GraphLayer → IntegrityLayer → Saída
